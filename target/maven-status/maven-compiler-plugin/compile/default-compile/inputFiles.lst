@@ -1,0 +1,14 @@
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\T07EntidadesCoperantesApplication.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\domain\dto\EntidadResponseDTO.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\config\WebClientCustomConfig.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\domain\mapper\EntidadMapper.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\service\impl\EntidadServiceImpl.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\domain\model\Entidad.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\service\EntidadService.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\exception\ResourceNotFoundException.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\exception\ErrorMessage.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\exception\ApiExceptionHandler.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\exception\BadRequestException.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\domain\dto\EntidadRequestDTO.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\web\EntidadController.java
+C:\Users\Jefer\Desktop\maestra\T07_backEnd_SOA\T07_backEnd_SOA\src\main\java\com\example\t07_entidadescoperantes\repository\EntidadRepository.java

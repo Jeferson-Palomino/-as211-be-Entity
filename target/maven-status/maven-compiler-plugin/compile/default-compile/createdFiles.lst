@@ -1,0 +1,14 @@
+com\example\t07_entidadescoperantes\web\EntidadController.class
+com\example\t07_entidadescoperantes\domain\dto\EntidadRequestDTO.class
+com\example\t07_entidadescoperantes\repository\EntidadRepository.class
+com\example\t07_entidadescoperantes\exception\ResourceNotFoundException.class
+com\example\t07_entidadescoperantes\T07EntidadesCoperantesApplication.class
+com\example\t07_entidadescoperantes\domain\dto\EntidadResponseDTO.class
+com\example\t07_entidadescoperantes\domain\model\Entidad.class
+com\example\t07_entidadescoperantes\exception\ApiExceptionHandler.class
+com\example\t07_entidadescoperantes\exception\BadRequestException.class
+com\example\t07_entidadescoperantes\domain\mapper\EntidadMapper.class
+com\example\t07_entidadescoperantes\config\WebClientCustomConfig.class
+com\example\t07_entidadescoperantes\service\EntidadService.class
+com\example\t07_entidadescoperantes\service\impl\EntidadServiceImpl.class
+com\example\t07_entidadescoperantes\exception\ErrorMessage.class

@@ -28,8 +28,18 @@ public class EntidadControllerTest {
                 null,
                 EntidadResponseDTO[].class
         );
+
         assertEquals(HttpStatus.OK, response.getStatusCode());
+        EntidadResponseDTO[] entidadResponseDTOs = response.getBody();
+        if (entidadResponseDTOs != null) {
+            for (EntidadResponseDTO entidadResponseDTO : entidadResponseDTOs) {
+                System.out.println(entidadResponseDTO.toString());
+            }
+        } else {
+            System.out.println("El cuerpo de la respuesta es nulo.");
+        }
     }
+
 
     @Test
     public void testFindById() {
@@ -47,13 +57,13 @@ public class EntidadControllerTest {
 
     @Test
     public void testUpdate() {
-        int entityId = 1;
+        int entityId = 7;
         EntidadRequestDTO requestDto = new EntidadRequestDTO();
-        requestDto.setNombre("PNP");
-        requestDto.setContacto(975947746);
-        requestDto.setRuc(new BigInteger("1234567890"));
-        requestDto.setDireccion("Urb. Los Rosales");
-        requestDto.setEstado("A");
+        requestDto.setNombre("Municipio");
+        requestDto.setContacto(123456789);
+        requestDto.setRuc(new BigInteger("12345678901"));
+        requestDto.setDireccion("Parque central de San Vicente");
+        requestDto.setEstado("I");
 
         ResponseEntity<EntidadResponseDTO> response = restTemplate.exchange(
                 "http://localhost:8080/v1/entidad/" + entityId,
